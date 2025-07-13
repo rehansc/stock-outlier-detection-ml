@@ -40,16 +40,18 @@ Unsupervised machine learning project to identify **unusual stock price behavior
 ```
 stock-outlier-detection-ml/
 ├── data/
-│   └── raw/
-│   └── processed/
+│   ├── raw/               # Fetched CSVs (Stooq or similar)
+│   └── processed/         # Feature-engineered, clustered, and sentiment-scored data
 ├── notebooks/
-│   └── 1_data_fetch.ipynb
-│   └── 2_feature_engineering.ipynb
-│   └── 3_clustering.ipynb
-│   └── 4_visualization.ipynb
+│   ├── 1_data_fetch.ipynb              # Pull stock prices
+│   ├── 2_feature_engineering.ipynb     # Compute returns, volatility, etc.
+│   ├── 3_clustering.ipynb              # Apply PCA, KMeans, DBSCAN
+│   ├── 4_visualization.ipynb           # Plot clusters, returns, volatility
+│   └── 5_news_sentiment.ipynb          # Fetch headlines, run FinBERT, join with price data
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 ```
 
 ---
