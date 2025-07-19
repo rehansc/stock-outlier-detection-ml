@@ -1,3 +1,7 @@
+# Quant Insights AI
+
+“A system that detects trading signals from price anomalies and news sentiment — inspired by quantitative hedge funds like Renaissance Technologies.”
+
 # 📈 Stock Outlier Detection with Machine Learning
 
 Unsupervised machine learning project to identify **unusual stock price behavior** using clustering and dimensionality reduction techniques. Inspired by the strategies of investors like Michael Burry and Jim Simons, this project explores patterns in stock volatility, returns, and technical indicators to detect potential anomalies or breakout candidates.
